@@ -1,5 +1,12 @@
 ﻿Function Global:Get-UpTime {
 <#
+.NOTES
+    Author: Robert D. Biddle (email: robertdbiddle+powershell@gmail.com )
+.SYNOPSIS
+    PowerShell function to calculate computer uptime
+.DESCRIPTION
+    PowerShell function to calculate computer uptime for either the localhost or remote computers.  
+    Multiple Remote computers can be entered as a list of strings, and pipeline input is supported.
 .EXAMPLE 
     Get-UpTime 
         - This example writes the local computer uptime to the console
@@ -63,4 +70,3 @@
     {     
     }
 }
-
